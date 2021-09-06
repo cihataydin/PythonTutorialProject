@@ -11,3 +11,4 @@ harfi =43
 print(ilk , harfi, b, " kelimesinin ilk harfi ", b[0])
 arif = "62 "
 print(arif + b+" kelimesinin ilk harfi "+b[0], 61)
+print(int("3") + int("5"))
