@@ -18,3 +18,4 @@ print("örnek sadece kalan gösterme 18%4=",(18%4))
 bir="yazılım"
 son="bilimi"
 print(bir  +" "+ son)
+input("lütfen kelime giriniz:")
