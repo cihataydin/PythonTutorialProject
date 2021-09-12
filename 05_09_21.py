@@ -1,15 +1,16 @@
 batuhanLength = len("batuhan")
 arifLength = len("arif")
-osmanLength =len("osman")    
-hüseyinLength =len("hüseyin")
-ibrahimLength =len("ibrahim")
-ronaldoLength = len( "ronaldo")    
-print("arif kelimesi{}karakteridir".format(arifLength))
-print("batuhan kelimesi{}karakterdir".format(batuhanLength))
-print("osman kelimesi{}karakteridir".format(osmanLength))
-print("hüseyin kelimesi{}karakteridir".format(hüseyinLength))
-print("ibrahim kelimesi{}karakteridir" .format(ibrahimLength))
-print("ronaldo kelimesi{}karakteridir".format( ronaldoLength))
+osmanLength = len("osman")    
+hüseyinLength = len("hüseyin")
+ibrahimLength = len("ibrahim")
+ronaldoLength = len("ronaldo")
+    
+print("arif kelimesi {} karakteridir".format(arifLength))
+print("batuhan kelimesi {} karakterdir".format(batuhanLength))
+print("osman kelimesi {} karakteridir".format(osmanLength))
+print("hüseyin kelimesi {} karakteridir".format(hüseyinLength))
+print("ibrahim kelimesi {} karakteridir".format(ibrahimLength))
+print("ronaldo kelimesi {} karakteridir".format(ronaldoLength))
 
 b="arif"
 ilk =31
