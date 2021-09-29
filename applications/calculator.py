@@ -4,14 +4,15 @@ print("1.toplama")
 print("2.çıkarma")
 print("3.çarpma")
 print("4.bölme")
-print("5.çıkış")
+print("0.çıkış")
 while(True):
     try:
         secim = input("Yapmak istediğiniz işlemin numarasını giriniz:")
 
-        if secim != "1" and secim != "2" and secim != "3" and secim != "4":
-            raise TypeError('Hatalı bir işlem kodu girdiniz')           
-
+        if secim != "1" and secim != "2" and secim != "3" and secim != "4" and secim != "0":
+            raise TypeError('Hatalı bir işlem kodu girdiniz')
+        elif secim =="0":
+            break           
         sayi1 = int(input("1. Sayı: "))
         sayi2 = int(input("2. Sayı: "))
 
