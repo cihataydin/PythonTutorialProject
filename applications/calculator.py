@@ -4,7 +4,7 @@ print("1.toplama")
 print("2.çıkarma")
 print("3.çarpma")
 print("4.bölme")
-
+print("5.çıkış")
 while(True):
     try:
         secim = input("Yapmak istediğiniz işlemin numarasını giriniz:")
